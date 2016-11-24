@@ -12,4 +12,4 @@ set(SOURCE_FILES
         openssl_lck.c
         pbkdf2.h
         pbkdf2.c)
-add_executable(pbkdf2 ${SOURCE_FILES})
+add_library(pbkdf2 ${SOURCE_FILES})
